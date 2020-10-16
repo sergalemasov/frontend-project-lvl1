@@ -6,11 +6,11 @@ async function askName() {
 }
 
 async function main() {
-  console.log('Welcome to the Brain Games!');
+    console.log('Welcome to the Brain Games!');
 
-  const name = await askName();
+    const name = await askName();
 
-  console.log(`Hello, ${name}!`);
+    console.log(`Hello, ${name}!`);
 }
 
 main();
